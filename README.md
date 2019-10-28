@@ -14,3 +14,10 @@ https://github.com/jan-tee/cycli-examples
 > install-module -name PowershellGET -Force 
 * restart powershell 
 > Install-module -name CyCli
+
+
+## AddDeviceToZone
+* Ingests an excel file with a "Machines Name" column to add to a specified zone. The script was modified from the original to connect to the API and perform action in one go. Modify the API TenantID, Auth url and APIID, variables and supply the API secret within the Command line
+
+> .\AddDevicesToZone.ps1 xxxxx-xxxxxx-xxxx MyZone TheMachines.xlsx
+
