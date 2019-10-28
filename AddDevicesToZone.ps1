@@ -27,7 +27,7 @@ Import-Module ImportExcel
 
 # Making the API connection
 $APIId = "3dx3d3f5-dd21-x3x3dx-x3x3x-33d3dc4d4d43d" # enter the API ID
-#$APIsecret = ConvertTo-SecureString -String "14741a0b-c1a7-43ef-899b-b444c99003ef" -AsPlainText -Force
+#$APIsecret = ConvertTo-SecureString -String "xxxxx-xxxxx-xxxxxx" -AsPlainText -Force # if you wish to code in the secret use this line and change the param requirement to false
 $APIsecret = ConvertTo-SecureString -String $Secret -AsPlainText -Force
 $TenantId = "33243dxfd43d-xxxxxxx-f343ggg4411" # enter your tenant ID
 $auth = "https://protectapi<-region>.cylance.com/auth/v2/token" #Enter API authentication URL based on your region
